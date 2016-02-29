@@ -11,7 +11,7 @@ def index():
   bottle.response.content_type = 'text/html'
   return bottle.static_file('index.html', '.')
   
-  @APP.route('/grett/<salutation>/<name>')
+  @APP.route('/greet/<salutation>/<name>')
   def greet(salutation, name):
     return 'Hello %s %s' % (salutation, name)
 
