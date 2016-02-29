@@ -1,5 +1,4 @@
 import bottle
-import random
 
 APP = bottle.default_app()
 
